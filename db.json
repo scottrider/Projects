@@ -2,8 +2,8 @@
   "Menu": [
     {
       "Id": "cd9e4560f6ea4232837d054917234386",
-      "Display": "string",
-      "Route": "string",
+      "Display": "Home",
+      "Route": "/",
       "Linktype": 0,
       "StartDate": "string",
       "EndDate": "string",
