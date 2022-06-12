@@ -4,6 +4,7 @@
       "Id": "cd9e4560f6ea4232837d054917234386",
       "Display": "Home",
       "Route": "/",
+      "File":  "",
       "Linktype": 0,
       "StartDate": "string",
       "EndDate": "string",
@@ -13,8 +14,9 @@
     },
     {
       "Id": "5fa9baa914ea45929324f1373375f768",
-      "Display": "Next",
-      "Route": "/Next",
+      "Display": "Job Search",
+      "Route": "/jobsearch",
+      "File": "JQJobSearchOperations.js",
       "Linktype": 0,
       "StartDate": "",
       "EndDate": "",
@@ -26,6 +28,27 @@
   "Projects": [
     {
       "Id": "88777cad5ac94889914b1fb0956140fa",
+      "Route": "",
+      "File": "",
+      "Name": "rreplacer",
+      "Menu": [
+        {
+          "Id": "aa857c25e287469d817e3d88059b181c",
+          "Display": "Next",
+          "Route": "/Next",
+          "Linktype": 0,
+          "StartDate": "",
+          "EndDate": "",
+          "State": true,
+          "Order": 1,
+          "Parent": 0
+        }
+      ]
+    },
+    {
+      "Id": "88777cad5ac94889914b1fb0956140fa",
+      "Route": "/jobsearch",
+      "File": "",
       "Name": "rreplacer",
       "Menu": [
         {
