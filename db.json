@@ -4,7 +4,7 @@
       "Id": "cd9e4560f6ea4232837d054917234386",
       "Display": "Home",
       "Route": "/",
-      "File":  "",
+      "File": "",
       "Linktype": 0,
       "StartDate": "string",
       "EndDate": "string",
@@ -13,10 +13,22 @@
       "Parent": 0
     },
     {
-      "Id": "5fa9baa914ea45929324f1373375f768",
+      "Id": "5fa9baa914ea45929324f1373375gr3d",
       "Display": "Job Search",
       "Route": "/jobsearch",
       "File": "JQJobSearchOperations.js",
+      "Linktype": 0,
+      "StartDate": "",
+      "EndDate": "",
+      "State": true,
+      "Order": 1,
+      "Parent": 0
+    },
+    {
+      "Id": "5fa9baa914ea45929324f1373375f768",
+      "Display": "To Do",
+      "Route": "/todo",
+      "File": "JQToDoOperations.js",
       "Linktype": 0,
       "StartDate": "",
       "EndDate": "",
@@ -46,10 +58,10 @@
       ]
     },
     {
-      "Id": "88777cad5ac94889914b1fb0956140fa",
-      "Route": "/jobsearch",
+      "Id": "88777cad5ac94889914b1fbth56140fa",
+      "Route": "/todo",
       "File": "",
-      "Name": "rreplacer",
+      "Name": "todo",
       "Menu": [
         {
           "Id": "aa857c25e287469d817e3d88059b181c",
