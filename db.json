@@ -40,41 +40,53 @@
   "Projects": [
     {
       "Id": "88777cad5ac94889914b1fb0956140fa",
-      "Route": "",
+      "Route": "/rreplacer",
       "File": "",
-      "Name": "rreplacer",
-      "Menu": [
-        {
-          "Id": "aa857c25e287469d817e3d88059b181c",
-          "Display": "Next",
-          "Route": "/Next",
-          "Linktype": 0,
-          "StartDate": "",
-          "EndDate": "",
-          "State": true,
-          "Order": 1,
-          "Parent": 0
-        }
-      ]
+      "Elements": {
+        "Menu": [
+          {
+            "Id": "aa857c25e287469d817e3d88059b181c",
+            "Display": "Next",
+            "Route": "/Next",
+            "Linktype": 0,
+            "StartDate": "",
+            "EndDate": "",
+            "State": true,
+            "Order": 1,
+            "Parent": 0
+          }
+        ]
+      }
     },
     {
       "Id": "88777cad5ac94889914b1fbth56140fa",
       "Route": "/todo",
       "File": "",
-      "Name": "todo",
-      "Menu": [
-        {
-          "Id": "aa857c25e287469d817e3d88059b181c",
-          "Display": "Next",
-          "Route": "/Next",
-          "Linktype": 0,
-          "StartDate": "",
-          "EndDate": "",
-          "State": true,
-          "Order": 1,
-          "Parent": 0
-        }
-      ]
+      "Elements": {
+        "Menu": [
+          {
+            "Id": "aa857c25e287469d817e3d88059b181c",
+            "Display": "Next",
+            "Route": "/Next",
+            "Linktype": 0,
+            "StartDate": "",
+            "EndDate": "",
+            "State": true,
+            "Order": 1,
+            "Parent": 0
+          }
+        ],
+        "Collection": [
+          {
+            "text": "learn AngularJS",
+            "done": true
+          },
+          {
+            "text": "build an AngularJS app",
+            "done": false
+          }
+        ]
+      }
     }
   ]
 }
